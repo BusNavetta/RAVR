@@ -1,0 +1,26 @@
+{
+  "codebook_max_abs_error": 4.172325134277344e-07,
+  "codebook_mean_abs_error": 1.4260876923799515e-07,
+  "codes_identical": true,
+  "cuda_loss": 977.1806640625,
+  "encode_report": {
+    "implementation": "CUDA algebraic expansion of official single_encode",
+    "iterations": 3,
+    "loss": 977.1806640625,
+    "points": 17,
+    "seconds": 0.23759699999936856
+  },
+  "julia": "D:\\Research\\Tools\\julia-1.10.12\\bin\\julia.exe",
+  "loss_relative_error": 1.1962335543312253e-08,
+  "official_loss": 977.1806523731371,
+  "official_patch": "remove unused `using CUDA` and `CA = CuArray` only",
+  "official_repo": "D:\\Research\\Data\\AJigma\\external\\Query-Aware-Quantization-sparse",
+  "official_stdout": "\nbegin encode_inner\nend encode_inner\nencode_inner took 0.35000014305114746 s\n\nbegin compute_construct_ves_inner\nend compute_construct_ves_inner\ncompute_construct_ves_inner took 0.1919999122619629 s\n\nbegin update_pqcodebook_inner\nend update_pqcodebook_inner\nupdate_pqcodebook_inner took 1.5839998722076416 s\n",
+  "passed": true,
+  "update_report": {
+    "implementation": "cluster/code co-occurrence form of official normal equations",
+    "regularization": 0.001,
+    "seconds": 0.04127560000051744,
+    "system_dimension": 32
+  }
+}

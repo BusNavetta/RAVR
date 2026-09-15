@@ -1,0 +1,37 @@
+{
+  "calibration_queries": 5000,
+  "coverage_by_depth": {
+    "50": 0.39328399300575256,
+    "100": 0.5915319919586182,
+    "200": 0.7911689877510071,
+    "400": 0.9297569990158081,
+    "800": 0.9872199892997742,
+    "1600": 0.9990140199661255,
+    "3200": 0.9999769926071167
+  },
+  "dataset": "deep1m",
+  "factory": "LSQ16x4",
+  "gallery_items": 1000000,
+  "panel_hard_negative_depth": 50,
+  "panel_recorded_coverage": 0.417022,
+  "reproduced_coverage_at_panel_depth": 0.39328399300575256,
+  "seconds": 4.112273899998399,
+  "seed": 17,
+  "targets": {
+    "10": {
+      "depth_needed": 50,
+      "mined_set_size": 160,
+      "required_coverage": 0.25
+    },
+    "12": {
+      "depth_needed": 100,
+      "mined_set_size": 310,
+      "required_coverage": 0.5
+    },
+    "14": {
+      "depth_needed": 200,
+      "mined_set_size": 610,
+      "required_coverage": 0.75
+    }
+  }
+}

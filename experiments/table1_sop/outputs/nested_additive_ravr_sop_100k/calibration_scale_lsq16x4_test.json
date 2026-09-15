@@ -1,0 +1,608 @@
+{
+  "bootstrap": {
+    "family": "18 calibration-rate-metric cells",
+    "resamples": 100000,
+    "seed": 20260828,
+    "simultaneous_half_width": 0.017125000000000196
+  },
+  "calibration_sizes": [
+    400,
+    1000,
+    5000
+  ],
+  "codec": "LSQ16x4",
+  "comparisons": [
+    {
+      "bootstrap_se": 0.00721268856562442,
+      "calibration_queries": 400,
+      "estimate": 0.10357500000000025,
+      "family_simultaneous_95_interval": [
+        0.08645000000000005,
+        0.12070000000000045
+      ],
+      "metric": "teacher_recall_at_10",
+      "pointwise_95_interval": [
+        0.08950000000000004,
+        0.11775000000000004
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.10850000000000001,
+        0.09975000000000002,
+        0.09150000000000003,
+        0.10149999999999998,
+        0.10550000000000001,
+        0.1155,
+        0.09949999999999999,
+        0.1005,
+        0.107,
+        0.10649999999999998
+      ],
+      "target_length": 10
+    },
+    {
+      "bootstrap_se": 0.003080826166986639,
+      "calibration_queries": 400,
+      "estimate": 0.061189191822971674,
+      "family_simultaneous_95_interval": [
+        0.04406419182297148,
+        0.07831419182297186
+      ],
+      "metric": "teacher_ndcg_at_10",
+      "pointwise_95_interval": [
+        0.0551548014815517,
+        0.06723904403182034
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.0681850719766738,
+        0.06402164996339653,
+        0.06394779676839046,
+        0.055890332676401956,
+        0.05771996519357534,
+        0.06376075163204283,
+        0.06256471741935313,
+        0.056723441451327815,
+        0.06128439539538407,
+        0.05779379575317009
+      ],
+      "target_length": 10
+    },
+    {
+      "bootstrap_se": 0.0070551194870893405,
+      "calibration_queries": 400,
+      "estimate": 0.04274999999999976,
+      "family_simultaneous_95_interval": [
+        0.025624999999999565,
+        0.059874999999999956
+      ],
+      "metric": "teacher_recall_at_10",
+      "pointwise_95_interval": [
+        0.028974999999999994,
+        0.056575
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.04275,
+        0.029750000000000002,
+        0.0475,
+        0.043,
+        0.04724999999999999,
+        0.05225,
+        0.032,
+        0.038,
+        0.05225,
+        0.04275
+      ],
+      "target_length": 12
+    },
+    {
+      "bootstrap_se": 0.0027214719400062465,
+      "calibration_queries": 400,
+      "estimate": 0.017708784707828086,
+      "family_simultaneous_95_interval": [
+        0.0005837847078278904,
+        0.03483378470782828
+      ],
+      "metric": "teacher_ndcg_at_10",
+      "pointwise_95_interval": [
+        0.01239866208397303,
+        0.023061569519772018
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.024169534792411452,
+        0.018327483362983305,
+        0.021681999170007016,
+        0.012270540878542215,
+        0.01862163479744004,
+        0.018283464811240123,
+        0.016727005083680156,
+        0.01515473284971338,
+        0.019575041712540132,
+        0.012276409619723356
+      ],
+      "target_length": 12
+    },
+    {
+      "bootstrap_se": 0.007028134264382697,
+      "calibration_queries": 400,
+      "estimate": -0.031875000000000035,
+      "family_simultaneous_95_interval": [
+        -0.04900000000000023,
+        -0.01474999999999984
+      ],
+      "metric": "teacher_recall_at_10",
+      "pointwise_95_interval": [
+        -0.045525,
+        -0.017925
+      ],
+      "positive_seeds": 0,
+      "seed_differences": [
+        -0.009999999999999998,
+        -0.04025,
+        -0.04025,
+        -0.036500000000000005,
+        -0.02825,
+        -0.032,
+        -0.04275,
+        -0.029999999999999995,
+        -0.02875,
+        -0.03
+      ],
+      "target_length": 14
+    },
+    {
+      "bootstrap_se": 0.002600209898377052,
+      "calibration_queries": 400,
+      "estimate": -0.01988367143447105,
+      "family_simultaneous_95_interval": [
+        -0.037008671434471244,
+        -0.002758671434470856
+      ],
+      "metric": "teacher_ndcg_at_10",
+      "pointwise_95_interval": [
+        -0.02497075560398297,
+        -0.014728466596441109
+      ],
+      "positive_seeds": 0,
+      "seed_differences": [
+        -0.010385112190092726,
+        -0.01964628237202983,
+        -0.02080144247782702,
+        -0.02378127380550882,
+        -0.01763465613250193,
+        -0.02314656790519728,
+        -0.020738059174042044,
+        -0.020406110284816953,
+        -0.02065770726035856,
+        -0.021639502742335975
+      ],
+      "target_length": 14
+    },
+    {
+      "bootstrap_se": 0.007056381793689819,
+      "calibration_queries": 1000,
+      "estimate": 0.10125000000000028,
+      "family_simultaneous_95_interval": [
+        0.08412500000000009,
+        0.11837500000000048
+      ],
+      "metric": "teacher_recall_at_10",
+      "pointwise_95_interval": [
+        0.08740000000000003,
+        0.11512500000000002
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.1005,
+        0.09574999999999999,
+        0.0955,
+        0.10125,
+        0.09925,
+        0.1105,
+        0.10400000000000001,
+        0.10274999999999998,
+        0.098,
+        0.105
+      ],
+      "target_length": 10
+    },
+    {
+      "bootstrap_se": 0.0030487754980628046,
+      "calibration_queries": 1000,
+      "estimate": 0.05639599387839598,
+      "family_simultaneous_95_interval": [
+        0.039270993878395784,
+        0.07352099387839617
+      ],
+      "metric": "teacher_ndcg_at_10",
+      "pointwise_95_interval": [
+        0.05040633712299333,
+        0.06234968695292279
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.057758119823777904,
+        0.0570351781083818,
+        0.0609734941473911,
+        0.05327412789785477,
+        0.05332900635717515,
+        0.05760337491496593,
+        0.05839851098525498,
+        0.05377631225182656,
+        0.057415515903877085,
+        0.054396298393454216
+      ],
+      "target_length": 10
+    },
+    {
+      "bootstrap_se": 0.005925735856999779,
+      "calibration_queries": 1000,
+      "estimate": 0.08129999999999993,
+      "family_simultaneous_95_interval": [
+        0.06417499999999973,
+        0.09842500000000012
+      ],
+      "metric": "teacher_recall_at_10",
+      "pointwise_95_interval": [
+        0.06975,
+        0.09297500000000004
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.08074999999999999,
+        0.07150000000000001,
+        0.0855,
+        0.07525,
+        0.08675000000000001,
+        0.09075,
+        0.07575,
+        0.07375,
+        0.09450000000000001,
+        0.0785
+      ],
+      "target_length": 12
+    },
+    {
+      "bootstrap_se": 0.002430205490925767,
+      "calibration_queries": 1000,
+      "estimate": 0.03385136199400848,
+      "family_simultaneous_95_interval": [
+        0.016726361994008287,
+        0.05097636199400868
+      ],
+      "metric": "teacher_ndcg_at_10",
+      "pointwise_95_interval": [
+        0.029090502451172895,
+        0.03864077154753525
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.03982658365130987,
+        0.03364082394615228,
+        0.037967019411721335,
+        0.02864120984067049,
+        0.035709150582727445,
+        0.033131657846396524,
+        0.032447738122877066,
+        0.030701761461800387,
+        0.038823043623587,
+        0.027624631452841875
+      ],
+      "target_length": 12
+    },
+    {
+      "bootstrap_se": 0.005376431831951242,
+      "calibration_queries": 1000,
+      "estimate": 0.012275000000000088,
+      "family_simultaneous_95_interval": [
+        -0.004850000000000108,
+        0.029400000000000284
+      ],
+      "metric": "teacher_recall_at_10",
+      "pointwise_95_interval": [
+        0.0018750000000000012,
+        0.022975
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.03375,
+        0.0055,
+        0.00575,
+        0.006000000000000001,
+        0.015999999999999997,
+        0.011749999999999997,
+        0.0052499999999999995,
+        0.012249999999999997,
+        0.0175,
+        0.009
+      ],
+      "target_length": 14
+    },
+    {
+      "bootstrap_se": 0.002092285625506809,
+      "calibration_queries": 1000,
+      "estimate": -0.0007921626112743157,
+      "family_simultaneous_95_interval": [
+        -0.01791716261127451,
+        0.01633283738872588
+      ],
+      "metric": "teacher_ndcg_at_10",
+      "pointwise_95_interval": [
+        -0.004833062622611149,
+        0.003391829718371712
+      ],
+      "positive_seeds": 3,
+      "seed_differences": [
+        0.007582399317102159,
+        -0.001912574247317827,
+        -0.001007171536018013,
+        -0.0035262383527423645,
+        0.0025594078765450567,
+        -0.006121305271923165,
+        -0.0027306188790230564,
+        -0.001429389289315284,
+        0.0014728611889255722,
+        -0.002808996918976222
+      ],
+      "target_length": 14
+    },
+    {
+      "bootstrap_se": 0.006077006465107397,
+      "calibration_queries": 5000,
+      "estimate": 0.07767500000000022,
+      "family_simultaneous_95_interval": [
+        0.06055000000000002,
+        0.09480000000000041
+      ],
+      "metric": "teacher_recall_at_10",
+      "pointwise_95_interval": [
+        0.06575000000000002,
+        0.089525
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.07575,
+        0.0805,
+        0.0665,
+        0.0785,
+        0.07875000000000001,
+        0.0855,
+        0.07025,
+        0.079,
+        0.08199999999999999,
+        0.08
+      ],
+      "target_length": 10
+    },
+    {
+      "bootstrap_se": 0.0027560967714460455,
+      "calibration_queries": 5000,
+      "estimate": 0.048707264248388366,
+      "family_simultaneous_95_interval": [
+        0.03158226424838817,
+        0.06583226424838856
+      ],
+      "metric": "teacher_ndcg_at_10",
+      "pointwise_95_interval": [
+        0.043273008764829236,
+        0.05410890871160893
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.05002904579692013,
+        0.05109476678095972,
+        0.05285545846839069,
+        0.044976607612309795,
+        0.04591645717306031,
+        0.05075493143805339,
+        0.04823467982145923,
+        0.04787232019558102,
+        0.05020638303125617,
+        0.04513199216589386
+      ],
+      "target_length": 10
+    },
+    {
+      "bootstrap_se": 0.005747238713405949,
+      "calibration_queries": 5000,
+      "estimate": 0.08059999999999987,
+      "family_simultaneous_95_interval": [
+        0.06347499999999967,
+        0.09772500000000006
+      ],
+      "metric": "teacher_recall_at_10",
+      "pointwise_95_interval": [
+        0.06932500000000003,
+        0.09192500000000006
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.08275,
+        0.07725,
+        0.09475,
+        0.09125,
+        0.07399999999999998,
+        0.08275,
+        0.066,
+        0.07424999999999998,
+        0.09024999999999998,
+        0.07275
+      ],
+      "target_length": 12
+    },
+    {
+      "bootstrap_se": 0.0023544216319712104,
+      "calibration_queries": 5000,
+      "estimate": 0.030755301461876588,
+      "family_simultaneous_95_interval": [
+        0.013630301461876392,
+        0.04788030146187679
+      ],
+      "metric": "teacher_ndcg_at_10",
+      "pointwise_95_interval": [
+        0.0261033851384144,
+        0.0353762250162211
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.03627472422007684,
+        0.03102936030613139,
+        0.03641354112652418,
+        0.030002103923115735,
+        0.028076953508584458,
+        0.02984894110001428,
+        0.02766399213924831,
+        0.029637860678158105,
+        0.03499229552351638,
+        0.023613242093395707
+      ],
+      "target_length": 12
+    },
+    {
+      "bootstrap_se": 0.004433895202191221,
+      "calibration_queries": 5000,
+      "estimate": 0.04697499999999934,
+      "family_simultaneous_95_interval": [
+        0.02984999999999914,
+        0.06409999999999953
+      ],
+      "metric": "teacher_recall_at_10",
+      "pointwise_95_interval": [
+        0.038524999999999976,
+        0.05595000000000001
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.06974999999999999,
+        0.0435,
+        0.042,
+        0.049749999999999996,
+        0.0455,
+        0.04449999999999999,
+        0.03175,
+        0.0495,
+        0.052750000000000005,
+        0.04075
+      ],
+      "target_length": 14
+    },
+    {
+      "bootstrap_se": 0.0014573180219577325,
+      "calibration_queries": 5000,
+      "estimate": 0.013828166157905806,
+      "family_simultaneous_95_interval": [
+        -0.0032968338420943898,
+        0.030953166157906
+      ],
+      "metric": "teacher_ndcg_at_10",
+      "pointwise_95_interval": [
+        0.011010728929841614,
+        0.01675030258431533
+      ],
+      "positive_seeds": 10,
+      "seed_differences": [
+        0.019699053888316866,
+        0.012374988531939168,
+        0.015400641400041916,
+        0.013560348789051746,
+        0.014557156228511654,
+        0.010973290256906099,
+        0.011205610047204028,
+        0.012577080656856015,
+        0.01696967503573622,
+        0.010963816744494053
+      ],
+      "target_length": 14
+    }
+  ],
+  "compute_backend_by_calibration_size": {
+    "1000": "legacy_numpy_cpu",
+    "400": "cuda",
+    "5000": "legacy_numpy_cpu"
+  },
+  "coverage_and_storage": [
+    {
+      "calibration_queries": 400,
+      "mean_coverage_fraction": 0.395187,
+      "mean_ravr_bytes_per_item": 14.97824,
+      "mean_uniform_cap_bytes_per_item": 14.97824,
+      "target_length": 10
+    },
+    {
+      "calibration_queries": 400,
+      "mean_coverage_fraction": 0.395187,
+      "mean_ravr_bytes_per_item": 15.216606000000002,
+      "mean_uniform_cap_bytes_per_item": 15.97824,
+      "target_length": 12
+    },
+    {
+      "calibration_queries": 400,
+      "mean_coverage_fraction": 0.395187,
+      "mean_ravr_bytes_per_item": 15.216606000000002,
+      "mean_uniform_cap_bytes_per_item": 16.97824,
+      "target_length": 14
+    },
+    {
+      "calibration_queries": 1000,
+      "mean_coverage_fraction": 0.6645190000000001,
+      "mean_ravr_bytes_per_item": 14.97824,
+      "mean_uniform_cap_bytes_per_item": 14.97824,
+      "target_length": 10
+    },
+    {
+      "calibration_queries": 1000,
+      "mean_coverage_fraction": 0.6645190000000001,
+      "mean_ravr_bytes_per_item": 15.97824,
+      "mean_uniform_cap_bytes_per_item": 15.97824,
+      "target_length": 12
+    },
+    {
+      "calibration_queries": 1000,
+      "mean_coverage_fraction": 0.6645190000000001,
+      "mean_ravr_bytes_per_item": 16.100756999999998,
+      "mean_uniform_cap_bytes_per_item": 16.97824,
+      "target_length": 14
+    },
+    {
+      "calibration_queries": 5000,
+      "mean_coverage_fraction": 0.967433,
+      "mean_ravr_bytes_per_item": 14.97824,
+      "mean_uniform_cap_bytes_per_item": 14.97824,
+      "target_length": 10
+    },
+    {
+      "calibration_queries": 5000,
+      "mean_coverage_fraction": 0.967433,
+      "mean_ravr_bytes_per_item": 15.97824,
+      "mean_uniform_cap_bytes_per_item": 15.97824,
+      "target_length": 12
+    },
+    {
+      "calibration_queries": 5000,
+      "mean_coverage_fraction": 0.967433,
+      "mean_ravr_bytes_per_item": 16.97824,
+      "mean_uniform_cap_bytes_per_item": 16.97824,
+      "target_length": 14
+    }
+  ],
+  "dataset": "Stanford Online Products, 100K gallery",
+  "seeds": [
+    17,
+    42,
+    73,
+    3067,
+    4294,
+    4996,
+    5423,
+    7520,
+    7937,
+    9794
+  ],
+  "targets": [
+    10,
+    12,
+    14
+  ]
+}

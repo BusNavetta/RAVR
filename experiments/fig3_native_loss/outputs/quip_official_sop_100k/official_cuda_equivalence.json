@@ -1,0 +1,50 @@
+{
+  "codebook_max_abs_error": 3.5762786865234375e-07,
+  "codes_identical": true,
+  "comparison": "released NumPy covariance-weighted Lloyd updates versus algebraically batched CUDA implementation on identical explicit inputs",
+  "covariance_max_abs_error": 0.0,
+  "cuda_losses": [
+    1118.27685546875,
+    1057.2189636230469,
+    1023.5192260742188,
+    1006.8410034179688
+  ],
+  "explicit_input_sha256": "fd05d527e4d20bc98866cb5da272652eaeea527fd6e061e79bfe7dcee1d73208",
+  "final_loss_relative_error": 2.113560819806906e-08,
+  "identity_permutation": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "official_initial_loss": 1487.1253773269034,
+  "official_losses": [
+    1118.2768633606936,
+    1057.2189544561484,
+    1023.519231697812,
+    1006.8410246981662
+  ],
+  "passed": true,
+  "released_baseline": "D:\\Research\\Data\\AJigma\\external\\Query-Aware-Quantization-sparse",
+  "released_model_sha256": "756ab7a52423d09099ba996219eb79cf094d04fd897462913c8b5ec20ee3c8eb"
+}

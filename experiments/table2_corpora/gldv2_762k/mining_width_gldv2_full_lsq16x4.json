@@ -1,0 +1,37 @@
+{
+  "calibration_queries": 5000,
+  "coverage_by_depth": {
+    "50": 0.3683576285839081,
+    "100": 0.530633807182312,
+    "200": 0.7079685926437378,
+    "400": 0.8610594272613525,
+    "800": 0.9547848105430603,
+    "1600": 0.9913910031318665,
+    "3200": 0.9992005825042725
+  },
+  "dataset": "gldv2_full",
+  "factory": "LSQ16x4",
+  "gallery_items": 761757,
+  "panel_hard_negative_depth": 50,
+  "panel_recorded_coverage": 0.384027977425872,
+  "reproduced_coverage_at_panel_depth": 0.3683576285839081,
+  "seconds": 7.817101599997841,
+  "seed": 17,
+  "targets": {
+    "10": {
+      "depth_needed": 50,
+      "mined_set_size": 160,
+      "required_coverage": 0.25
+    },
+    "12": {
+      "depth_needed": 100,
+      "mined_set_size": 310,
+      "required_coverage": 0.5
+    },
+    "14": {
+      "depth_needed": 400,
+      "mined_set_size": 1210,
+      "required_coverage": 0.75
+    }
+  }
+}

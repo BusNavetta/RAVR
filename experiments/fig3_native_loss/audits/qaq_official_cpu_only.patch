@@ -1,0 +1,9 @@
+diff --git a/src/model/saq_v2.jl b/src/model/saq_v2.jl
+--- a/src/model/saq_v2.jl
++++ b/src/model/saq_v2.jl
+@@
+ using LinearAlgebra
+ using  Printf
+-using CUDA
+ using TimerOutputs
+-CA = CuArray

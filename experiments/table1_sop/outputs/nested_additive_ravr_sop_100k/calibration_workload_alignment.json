@@ -1,0 +1,27 @@
+{
+  "manifest": "D:\\Research\\Data\\AJigma\\tfds_replication\\sop\\sop_100k_manifest.npz",
+  "note": "Calibration prefixes are deterministic record-order prefixes. Changing their length changes both sample count and class mixture.",
+  "rows": [
+    {
+      "calibration_queries": 400,
+      "queries_from_test_workload_classes": 400,
+      "test_workload_classes": 400,
+      "unique_calibration_classes": 400,
+      "unique_test_workload_classes_observed": 400
+    },
+    {
+      "calibration_queries": 1000,
+      "queries_from_test_workload_classes": 409,
+      "test_workload_classes": 400,
+      "unique_calibration_classes": 986,
+      "unique_test_workload_classes_observed": 400
+    },
+    {
+      "calibration_queries": 5000,
+      "queries_from_test_workload_classes": 461,
+      "test_workload_classes": 400,
+      "unique_calibration_classes": 4435,
+      "unique_test_workload_classes_observed": 400
+    }
+  ]
+}

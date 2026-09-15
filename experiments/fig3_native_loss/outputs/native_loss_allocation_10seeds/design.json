@@ -1,0 +1,31 @@
+{
+  "seeds": [
+    17,
+    42,
+    73,
+    3067,
+    4294,
+    4996,
+    5423,
+    7520,
+    7937,
+    9794
+  ],
+  "new_seeds": [
+    3067,
+    4294,
+    4996,
+    5423,
+    7520,
+    7937,
+    9794
+  ],
+  "stopping_rule": "Run every listed seed for both codecs; no significance-based stopping.",
+  "main_comparisons": [
+    "RAVR vs native raw",
+    "RAVR vs native cosine adaptation"
+  ],
+  "fixed_queries": true,
+  "codec_retraining": true,
+  "source_three_seed_directory": "native_loss_allocation"
+}

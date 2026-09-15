@@ -1,0 +1,36 @@
+{
+  "calibration_queries": 5000,
+  "cells": [
+    {
+      "seconds": 1673.7908696000231,
+      "seed": 17,
+      "target": 10
+    },
+    {
+      "seconds": 119.05943240004126,
+      "seed": 17,
+      "target": 12
+    },
+    {
+      "seconds": 131.24865820002742,
+      "seed": 17,
+      "target": 14
+    }
+  ],
+  "dataset": "gldv2_full",
+  "factory": "LSQ16x4",
+  "lazy_selections": true,
+  "mean_cell_minutes": 10.689438667778289,
+  "split": "test",
+  "strategies": [
+    "uniform",
+    "ravr",
+    "ravr_unseen_rd",
+    "ordinal_per_exposure",
+    "query_ip_mse",
+    "reconstruction",
+    "random_histogram"
+  ],
+  "total_hours": 0.5344719333889144,
+  "total_seconds": 1924.0989602000918
+}

@@ -1,0 +1,13 @@
+{
+  "dataset": "deep1m",
+  "evaluated_queries": 400,
+  "first_failure": null,
+  "float64_sample": 64,
+  "float64_top10_agreement_on_sample": 1.0,
+  "gallery_rows": 1000000,
+  "queries_disagreeing": 0,
+  "queries_with_an_official_neighbour_in_gallery": 43,
+  "rank1_agreement": 1.0,
+  "seconds": 8.356104800004687,
+  "split": "test"
+}

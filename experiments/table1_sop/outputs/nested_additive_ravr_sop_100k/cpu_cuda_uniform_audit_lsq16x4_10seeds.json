@@ -1,0 +1,109 @@
+{
+  "cuda_backend": {
+    "capability": [
+      8,
+      9
+    ],
+    "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "requested": "cuda",
+    "resolved": "cuda",
+    "tf32": false,
+    "torch": "2.11.0+cu128",
+    "torch_cuda": "12.8"
+  },
+  "cuda_source_calibration_queries": 400,
+  "factory": "LSQ16x4",
+  "legacy_cpu_source_calibration_queries": 5000,
+  "purpose": "Numerical-backend audit only; it compares uniform allocations with identical frozen codecs and must not be interpreted as a method effect.",
+  "rows": [
+    {
+      "changed_queries": 59,
+      "cuda_minus_legacy_cpu": -0.00017499999999999997,
+      "evaluation_speedup": 4.503946537705689,
+      "max_absolute_per_query_difference": 0.4,
+      "mean_absolute_per_query_difference": 0.0018250000000000002,
+      "mean_cuda_evaluation_seconds": 0.0757017999982054,
+      "mean_legacy_cpu_evaluation_seconds": 0.3409568600000057,
+      "metric": "teacher_recall_at_10",
+      "query_seed_pairs": 4000,
+      "target_length": 10
+    },
+    {
+      "changed_queries": 4000,
+      "cuda_minus_legacy_cpu": 4.0862067683686194e-05,
+      "evaluation_speedup": 4.503946537705689,
+      "max_absolute_per_query_difference": 0.06377288393302094,
+      "mean_absolute_per_query_difference": 0.0005726695577502912,
+      "mean_cuda_evaluation_seconds": 0.0757017999982054,
+      "mean_legacy_cpu_evaluation_seconds": 0.3409568600000057,
+      "metric": "teacher_ndcg_at_10",
+      "query_seed_pairs": 4000,
+      "target_length": 10
+    },
+    {
+      "changed_queries": 60,
+      "cuda_minus_legacy_cpu": -0.00030000000000000003,
+      "evaluation_speedup": 3.257040424127272,
+      "max_absolute_per_query_difference": 0.30000000000000004,
+      "mean_absolute_per_query_difference": 0.00175,
+      "mean_cuda_evaluation_seconds": 0.09987857000160147,
+      "mean_legacy_cpu_evaluation_seconds": 0.3253085399992415,
+      "metric": "teacher_recall_at_10",
+      "query_seed_pairs": 4000,
+      "target_length": 12
+    },
+    {
+      "changed_queries": 4000,
+      "cuda_minus_legacy_cpu": -2.9401450818424547e-06,
+      "evaluation_speedup": 3.257040424127272,
+      "max_absolute_per_query_difference": 0.05122153414182151,
+      "mean_absolute_per_query_difference": 0.00035951569567548936,
+      "mean_cuda_evaluation_seconds": 0.09987857000160147,
+      "mean_legacy_cpu_evaluation_seconds": 0.3253085399992415,
+      "metric": "teacher_ndcg_at_10",
+      "query_seed_pairs": 4000,
+      "target_length": 12
+    },
+    {
+      "changed_queries": 46,
+      "cuda_minus_legacy_cpu": 0.000225,
+      "evaluation_speedup": 2.8559211099551196,
+      "max_absolute_per_query_difference": 0.2,
+      "mean_absolute_per_query_difference": 0.0011749999999999998,
+      "mean_cuda_evaluation_seconds": 0.11398546999917017,
+      "mean_legacy_cpu_evaluation_seconds": 0.32553350999878605,
+      "metric": "teacher_recall_at_10",
+      "query_seed_pairs": 4000,
+      "target_length": 14
+    },
+    {
+      "changed_queries": 4000,
+      "cuda_minus_legacy_cpu": 9.210458874592543e-06,
+      "evaluation_speedup": 2.8559211099551196,
+      "max_absolute_per_query_difference": 0.04689402718821911,
+      "mean_absolute_per_query_difference": 0.00025707541896206274,
+      "mean_cuda_evaluation_seconds": 0.11398546999917017,
+      "mean_legacy_cpu_evaluation_seconds": 0.32553350999878605,
+      "metric": "teacher_ndcg_at_10",
+      "query_seed_pairs": 4000,
+      "target_length": 14
+    }
+  ],
+  "seeds": [
+    17,
+    42,
+    73,
+    3067,
+    4294,
+    4996,
+    5423,
+    7520,
+    7937,
+    9794
+  ],
+  "targets": [
+    10,
+    12,
+    14
+  ]
+}

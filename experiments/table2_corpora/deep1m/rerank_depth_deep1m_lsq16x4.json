@@ -1,0 +1,32 @@
+{
+  "dataset": "deep1m",
+  "dimension": 96,
+  "factory": "LSQ16x4",
+  "gallery_size": 1000000,
+  "ladder": [
+    10000,
+    30000,
+    60000,
+    120000,
+    250000,
+    500000,
+    1000000
+  ],
+  "note": "measured on validation queries only; the test split is never read by this stage",
+  "recall_target": 0.99,
+  "recalls": {
+    "10000": 0.88725,
+    "1000000": 1.0,
+    "120000": 0.996,
+    "250000": 0.999,
+    "30000": 0.965,
+    "500000": 1.0,
+    "60000": 0.98675
+  },
+  "retrieval_k": 10,
+  "seconds": 336.36544709999725,
+  "seed": 17,
+  "selected_depth": 120000,
+  "selected_recall": 0.996,
+  "validation_queries": 400
+}

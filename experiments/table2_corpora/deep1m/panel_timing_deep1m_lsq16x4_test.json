@@ -1,0 +1,36 @@
+{
+  "calibration_queries": 5000,
+  "cells": [
+    {
+      "seconds": 1360.518893400018,
+      "seed": 17,
+      "target": 10
+    },
+    {
+      "seconds": 63.30213250001543,
+      "seed": 17,
+      "target": 12
+    },
+    {
+      "seconds": 56.071399699983886,
+      "seed": 17,
+      "target": 14
+    }
+  ],
+  "dataset": "deep1m",
+  "factory": "LSQ16x4",
+  "lazy_selections": true,
+  "mean_cell_minutes": 8.221624586666762,
+  "split": "test",
+  "strategies": [
+    "uniform",
+    "ravr",
+    "ravr_unseen_rd",
+    "ordinal_per_exposure",
+    "query_ip_mse",
+    "random_histogram",
+    "reconstruction"
+  ],
+  "total_hours": 0.4110812293333381,
+  "total_seconds": 1479.8924256000173
+}

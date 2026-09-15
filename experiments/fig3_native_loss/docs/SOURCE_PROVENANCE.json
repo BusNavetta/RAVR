@@ -1,0 +1,39 @@
+{
+  "base_git_commit": "2913c0b474911aa86749efb93d01c24480d556b4",
+  "note": "Source snapshots include experiment files not necessarily committed at base_git_commit; per-file hashes are authoritative.",
+  "source_files": {
+    "3_method/audit_baseline_claims.py": "6689cee50bad6e74502da9b87d4791f7bd255660f98d34ae056c63fdc9ac099d",
+    "3_method/benchmark_faiss_fixed_rate.py": "09821aebb99447b3353519dd6c53389fc5756bdc6c27aece4218806adbe6d429",
+    "3_method/benchmark_native_loss_allocation.py": "7ee00e11d9e7e80540de729c959dd4c8b060e92a9d048eb793119a239568f6e2",
+    "3_method/benchmark_qaq_official.py": "ef7f05f473da5b53a809c82fc235e2257da36535b911292b2d256c5b0d7aa2cc",
+    "3_method/benchmark_qaq_ravr.py": "80687fbc81e3e3292acaf29828d9726f58f73997e4186afabea96c5f87993e0a",
+    "3_method/benchmark_quip_official.py": "1e69f07138b9e70d1c901a0f7e609251c7c822cba5982af4dcb3728b290c91fc",
+    "3_method/benchmark_quip_ravr.py": "4665563bd64bd117b72a061c38669a04770f30907a12c9afc42fc850635768ab",
+    "3_method/compute_backend.py": "d1eb9b3a189039f61a6b4fe18394acb27a9065bc0dab261e27932a2be2272090",
+    "3_method/extend_native_loss_seeds.py": "9401b5bf35aceb71964bef37eef0cf9f14bb1e0a1aea9706c48485576171ec89",
+    "3_method/faiss_fixed_rate.py": "af4cd1b048fbd513a4ec27ba0f3ea26548c8d12dcf254abffc05e55a267e260b",
+    "3_method/prepare_qaq_sop_protocol.py": "88eea48559deeb783460a7123c34efec92ef67153d138835cd6001966fed5a10",
+    "3_method/qaq_pq.py": "63b03341cd960aa83270f13324943dce38ee371fffef09d6eeb263d77cd32629",
+    "3_method/qaq_ravr.py": "188a1e0e4316bbbe86e8bb5ce0287cf32142c68c9a9b9702982bb6db509bd6f5",
+    "3_method/quip_pq.py": "2f8a18dfc0e088e806949865defc4a8645f188d93dcc25e5df7e4974a3385482",
+    "3_method/ravr_depth_ablation.py": "c74941b4b6d4b02ecefbc3ea4a9127aec62d752d3384a539d0c4e4b123641e7c",
+    "3_method/ravr_rq.py": "4e766609e20f4758bcc18dd1bf0caeeb361ff5f041747c910c5a37ee7914d6fd",
+    "3_method/summarize_native_loss_extension.py": "ce74a66f0a15d35a0f54d04afd10ba89d72bab95b23bd4fbd374b5ccec0de97a",
+    "3_method/test_native_loss_allocation.py": "54a380a593414c85e8d53ba620730a6486cb7c09217084e07439dbca8c145159",
+    "3_method/test_qaq_pq.py": "3b274ee30b39265e06d84f42fc670307f56ffc9d3c0156c7c828e5490d86b31b",
+    "3_method/test_quip_pq.py": "f58b80a59971857f5861f396fc5d05273efd3c272aae6a2dcb3ca1623793a083",
+    "3_method/validate_qaq_official_equivalence.py": "95f0883527ce966ee458b432fa6a0a5baeb605f98aaba78f0bc817c8b3fe4af9",
+    "3_method/validate_quip_official_equivalence.py": "60702b0d9daf405c4d8c85d2780c848c0efc4351388061e7d28ab533c3f1ecdd",
+    "3_method/qaq_official_smoke.jl": "717c8c62c0597edaa7ccbddcc75ea3e0da23beda637f6445c3bdcd3c375b9a1f",
+    "3_method/qaq_official_cpu_only.patch": "1d3eeca329cd11a01d3417c33d5fcb010cc092343cc4759967aa9c0ff6c2cea3"
+  },
+  "reference_sources": [
+    "https://github.com/jzhang-0/Query-Aware-Quantization",
+    "https://proceedings.mlr.press/v51/guo16a.pdf"
+  ],
+  "tested_plot_environment": {
+    "python": "3.11.15",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.1"
+  }
+}

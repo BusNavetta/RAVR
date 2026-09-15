@@ -1,0 +1,33 @@
+{
+  "dataset": "gldv2_full",
+  "factory": "LSQ16x4",
+  "gallery_size": 761757,
+  "ladder": [
+    10000,
+    30000,
+    60000,
+    120000,
+    200000,
+    300000,
+    450000,
+    761757
+  ],
+  "note": "measured on validation queries only; the test split is never read by this stage",
+  "recall_target": 0.99,
+  "recalls": {
+    "10000": 0.88675,
+    "120000": 0.98825,
+    "200000": 0.995,
+    "30000": 0.952,
+    "300000": 0.99725,
+    "450000": 0.99925,
+    "60000": 0.97275,
+    "761757": 1.0
+  },
+  "retrieval_k": 10,
+  "seconds": 343.69914029999927,
+  "seed": 17,
+  "selected_depth": 200000,
+  "selected_recall": 0.995,
+  "validation_queries": 400
+}
