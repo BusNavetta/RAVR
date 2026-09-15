@@ -1,6 +1,5 @@
 # RAVR — Retrieval-Aware Variable-Rate Allocation
 
-Code and stored results for the paper.
 
 RAVR uses a trained, fixed nested codec and determines how many code stages to keep for each item, while ensuring that the entire serialized index stays within a fixed byte budget. For each item, the cost of keeping a shorter code prefix is estimated using the Ordinal-KL retrieval risk on calibration queries. A dual (Lagrangian) solver then uses these risks to decide how the available budget should be allocated. RAVR-RD uses any remaining budget for items that were not retrieved by any calibration query, based on their reconstruction error.
 
